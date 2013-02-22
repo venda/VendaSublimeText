@@ -1,0 +1,13 @@
+<snippet>
+ 	<content>
+ 		<![CDATA[
+ 			<venda_block label=${1:labelname},${2:first}${3:=}${4:last},operator=${5:and}>$6</venda_block label=$1>
+ 		]]>
+ 	</content>
+ 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+ 	<tabTrigger>block</tabTrigger>
+ 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+ 	<!-- <scope>source.python</scope> -->
+ 	<!-- Optional: Description to show in the menu -->
+    <description>Venda Block Tag - use the TAB key to cycle through the options after on the page</description>
+ </snippet>

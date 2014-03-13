@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+        <![CDATA[
+            <venda_media rec=${1:invt|icat|stry|scat|pcat},type=pict,key=${2:key},img=no>
+        ]]>
+    </content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>venda_med</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>venda_media tag - path to product key image</description>
+</snippet>

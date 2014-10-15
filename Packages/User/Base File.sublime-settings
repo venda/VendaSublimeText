@@ -44,7 +44,7 @@
   // Any additional boilerplate tags which should be added to each block. Should be an array of strings.
   // Note that this only applies when a docblock is opened directly preceding a function.
   // Tab points can be added by using snippet syntax, eg: ${1:default text}
-  "jsdocs_extra_tags": ["@method", "@memberof", "@extends", "@requires", "@module", "@namespace"],
+  "jsdocs_extra_tags": ["@method", "@requires", "@module", "@namespace"],
 
   // If extra tags are defined, by default they go between the description and the param/return tags. If this is set to
   // true, the extra tags are placed at the very end.

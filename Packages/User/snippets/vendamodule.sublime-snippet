@@ -1,0 +1,53 @@
+<snippet>
+  <content><![CDATA[
+!function (global, moduleDefinition) {
+  'use strict';
+
+  /**
+   * Ensure that the dependencies are correctly identified here,
+   * and also as arguments to the moduleDefinition.
+   */
+  var dependencies = [
+    global.Venda,
+    global.jQuery
+  ];
+
+  if (typeof exports === 'object') {
+    module.exports = moduleDefinition();
+  } else {
+    global.Venda.Utilities.addModule({
+      namespace: 'MinicartDetail',
+      module: moduleDefinition.apply(null, dependencies)
+    });
+  }
+
+}(this, function (Venda, \$) {
+  'use strict';
+
+  var Module = {
+
+    /**
+     * Initialise the module, passing in the options above.
+     * Initialise the DOM events
+     */
+    init: function (/* options */) {
+      this.domInit();
+      return this;
+    },
+
+    domInit: function () {
+      return this;
+    }
+
+  };
+
+  return Module.init(/* options */);
+
+});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vendamodule</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

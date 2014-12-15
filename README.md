@@ -4,11 +4,11 @@ Sublime Package and recommended settings for Venda Template Development. Include
 
 ## First Time Setup
 If you're installing Sublime fresh, or don't mind overwriting your current settings, you can do a `git clone` of the settings:
-1. In your terminal, `cd` to your `Sublime Text 3` folder, e.g., `cd /Users/sgoldberg/Library/Application Support/Sublime Text 3`
-2. Delete your default `Packages` folder: `rm -rf Packages`
-3. Clone down making sure to change the name of the folder (repo). As you're testing my work, you'll need to clone from my fork: `git clone https://github.com/venda/VendaSublimeText.git Packages`. This will create a folder called `Packages` with the contents in it and set it up as a Git repo.
-4. Restart Sublime. All of the user packages should have loaded fine.
-5. Test: create a blank HTML file and save it. After it's saved, test all the cool things that these preferences do: e.g., typing `html` and then tabbing, or the Venda tag autocomplete.
+* In your terminal, `cd` to your `Sublime Text 3` folder, e.g., `cd /Users/sgoldberg/Library/Application Support/Sublime Text 3`.
+* Delete your default `Packages` folder: `rm -rf Packages`.
+* Clone down making sure to change the name of the folder (repo). As you're testing my work, you'll need to clone from my fork: `git clone https://github.com/venda/VendaSublimeText.git Packages`. This will create a folder called `Packages` with the contents in it and set it up as a Git repo.
+* Restart Sublime. All of the user packages should have loaded fine.
+* Test: create a blank HTML file and save it. After it's saved, test all the cool things that these preferences do: e.g., typing `html` and then tabbing, or the Venda tag autocomplete.
 
 ## Packages > Venda
  * Tag autocompletion

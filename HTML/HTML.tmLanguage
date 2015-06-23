@@ -512,7 +512,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;/?)([a-zA-Z0-9:]+)</string>
+			<string>(&lt;/?)([a-zA-Z0-9:_]+)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -896,7 +896,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;='|")</string>
+			<string>(?&lt;==|='|=")</string>
 			<key>name</key>
 			<string>meta.attribute-with-value.id.html</string>
 			<key>patterns</key>
